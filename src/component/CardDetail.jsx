@@ -1,5 +1,4 @@
 import { useState } from "react";
-import CardModal from "./CardModal";
 import { getTimeOfPublish } from "../util";
 import "./common.css";
 const CardDetail = ({ id, imgurl, title, channelName, time }) => {

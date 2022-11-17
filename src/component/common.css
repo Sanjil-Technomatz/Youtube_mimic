@@ -13,14 +13,20 @@
 
 .imageThumb {
   border-radius: 10px;
-  /* width: 420px; */
+  width: 400px;
 }
 .card {
   padding: 20px;
   text-align: left;
+  
+  
+
 }
 .cardZoom {
   transform: scale(1.2);
+  border-radius: 20px;
+  background-color: aliceblue;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 3px 6px 0 rgb(0 0 0 / 20%);
 }
 .buttonContainer {
   display: flex;
