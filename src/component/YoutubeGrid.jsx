@@ -25,6 +25,7 @@ const YoutubeGrid = () => {
       userdata && userdata.map(item => {
         return (
           <CardDetail
+            key={item.id.videoId}
             id={item.id.videoId}
             imgurl={item.snippet.thumbnails.medium.url}
             title={item.snippet.title}

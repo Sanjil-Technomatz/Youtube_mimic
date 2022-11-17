@@ -10,3 +10,37 @@
   font-size: 30px;
   text-align: center;
 }
+
+.imageThumb{
+  border-radius: 10px;
+}
+.card{
+  padding: 20px;
+  text-align: left;
+}
+.cardZoom{
+  transform: scale(1.2);
+}
+.buttonContainer{
+  display: flex;
+  justify-content: space-between;
+}
+button{
+  height: 20px;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #2196F3;
+    
+  background-color: aliceblue;
+  font-weight: 500;
+border-radius: 24px;
+}
+
+@media screen and (max-width:768px) {
+  .buttonContainer{
+    width: 100%;
+    gap: 5px;
+    flex-direction: column; 
+  }
+}
